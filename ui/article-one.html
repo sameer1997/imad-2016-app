@@ -1,139 +1,30 @@
-<!DOCTYPE html>
 <html>
-<head>
-<style>
-h1{text-align:center;background-color:#CCFFCC}
-</style>
-<script>
-function startTime() {
-    var today = new Date();
-    var h = today.getHours();
-    var m = today.getMinutes();
-    var s = today.getSeconds();
-    m = checkTime(m);
-    s = checkTime(s);
-    document.getElementById('txt').innerHTML =
-    h + ":" + m + ":" + s;
-    var t = setTimeout(startTime, 500);
-}
-function checkTime(i) {
-    if (i < 10) {i = "0" + i};  
-    return i;
-}
-</script>
-
-
-<title>Designing and Developing my webpage using HTML</title>
-</head>
-<body onload="startTime()" style="background:radial-gradient(circle, red 5%, yellow 15%, green 60%);">
-<div id="txt"></div>
-<center>
-<marquee><h1 ><u color="#CCCC00"><font size="7" face="Comic sans MS" color="#0033CC" >Introduction to Information Technology Project</font></u></h1></marquee><hr /><hr />
-<h2><font color="#FFA500">Presented by</font></h2>
-<h3><u><font size="5" face="Times New Roman" color="#B8860B">Names</font></u>:<font size="5" face="Bedrock" color="#FF0000">SHAIK SAMEER <font size="5" color="#000099">& <font size="5" color="#990000"> VAMSI KRISHNA</font><br />
-    <u><font size="5" face="Times New Roman" color="#B8860B">ID</font></u>:<font size="5" color="#FF0000">201552078 <font size="5" color="#000099">& <font size="5" color="#990000">201552079</font></h3>
-</center>
-<a href="https://www.google.co.in/?gfe_rd=cr&ei=f6XWVoKYNq7T8ge6iIWQDw&gws_rd=ssl#q=some+great+persons+of+india" target="_blank"><img src="image.jpg" alt="test image" width="600" height="250" border="5" bordercolor="green" align="right"/></a>
-<ol><u><b><font size="4" face="Times New Roman" color="#006600">Our homepage contains following features</font></b></u>:<br /><font size="4">
-   <li>Cascading style</li>
-   <li>Table</li>
-   <li>Images</li>
-   <li>Figure</li>
-   <li>Utility:clock</li>
-   <li>Guest book entry option</li>
-   <li>Links to other websites</li></font>
-   </ol>
-<table border="3" bordercolor="green" bgcolor="Aqua" >
-<caption><b><u><font size="5" color="#000099">Some Great Personalities of India</font></u></b></caption>
-<tr>
-<td><font face="Aerial" color="#FF3300" align="center"><b>Ancient</font></b></td>
-<td><font face="Aerial" color="#FF3300" align="center"><b>Medieval</font></b></td>
-<td><font face="Aerial" color="#FF3300" align="center"><b>Present</font></b></td>
-</tr>
-<tr>
-<td><a href="https://en.wikipedia.org/wiki/Chandragupta_Maurya"target="_blank">Chandragupta Maurya</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi"target="_blank">Mahatma Gandhiji</a></td>
-<td><a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam"target="_blank">A.P.J Abdul Kalam</a></td>
-</tr>
-<tr>
-<td><a href="https://en.wikipedia.org/wiki/Ashoka"target="_blank">Ashoka</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Jawaharlal_Nehru"target="_blank">Jawaharlal Nehru</a></td>
-<td><a href="https://en.wikipedia.org/wiki/A._R._Rahman"target="_blank">A.R Rahman</a></td>
-</tr>
-<tr>
-<td><a href="https://en.wikipedia.org/wiki/Aryabhata"target="_blank">Aryabhata</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Swami_Vivekananda"target="_blank">Swami Vivekananda</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Sachin_Tendulkar"target="_blank">Sachin Tendulkar</a></td>
-</tr>
-<tr>
-<td><a href="https://en.wikipedia.org/wiki/Brahmagupta"target="_blank">Brahmagupta</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Rabindranath_Tagore"target="_blank">Rabindranath Tagore</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Ratan_Tata"target="_blank">Ratan Tata</a></td>
-</tr>
-<tr>
-<td><a href="https://en.wikipedia.org/wiki/Vyasa"target="_blank">Veda Vyasa</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Mother_Teresa"target="_blank">Mother Teresa</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Mukesh_Ambani"target="_blank">Mukesh Ambani</a></td>
-</tr>
-<tr>
-<td><a href="https://en.wikipedia.org/wiki/Chanakya"target="_blank">Chanakya</a></td>
-<td><a href="https://en.wikipedia.org/wiki/C._V._Raman"target="_blank">C.V Raman</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Sundar_Pichai"target="_blank">Sundar Pichai</a></td>
-</tr>
-<tr>
-<td><a href="https://en.wikipedia.org/wiki/Valmiki"target="_blank">Valmiki</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Vikram_Sarabhai"target="_blank">Vikram Sarabhai</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Satya_Nadella"target="_blank">Satya Nadella</a></td>
-</tr>
-</table><br />
-
-<img class="slides" src="p1.jpg" align="center" border="8" style="border-color:grey; border-style:outline;" width="500" height="600">
-<img class="slides" src="p2.jpg" align="center" style="border:8;"  width="500" height="600">
-<img class="slides" src="p3.jpg" align="center" style="border:8;"  width="500" height="600">
-<img class="slides" src="p4.jpg" align="center" style="border:8;"  width="500" height="600">
-<img class="slides" src="p5.jpg" align="center" style="border:8;"  width="500" height="600">
-<img class="slides" src="p6.jpg" align="center" style="border:8;"  width="500" height="600">
-<script>
-var myindex=0;
-car();
-
-function car(){
-var i;
-var x=document.getElementsByClassName("slides");
-for(i=0;i<x.length;i++)
-{x[i].style.display="none";}
-myindex++;
-if(myindex>x.length)
-{myindex=1}
-x[myindex-1].style.display="block";
-setTimeout(car,2000);
-}
-</script>
-
-<form>
-<u><b><font size="6" color="#FF3300">Feedback</font></b></u>: <br />
-<font size="4" color="blue">Your name please:</font><input type="text" name="name" size="15" maxlength="20" /><br />
-<textarea rows="5" cols="30" name="feedback">
-Please give your feedback here...
-</textarea><br />
-<u><b><font size="4" color="#800000">How's it</font></b></u>: <br />
-<input type="radio" name="response" value="worst"> Worst
-<input type="radio" name="response" value="bad"> Bad
-<input type="radio" name="response" value="ok"> Ok
-<input type="radio" name="response" value="good"> Good
-<input type="radio" name="response" value="excelent"> Excelent<br />
-<input type="submit" name="submit" value="Submit" />
-</form>
-<font size="5" face="Aerial" color="#800080"><u><b>You can Go to:</b></u></font><br />
-<a href="http://www.google.com" target="_blank"><img src="google.jpg" alt="GOOGLE" width="100" height="50" align="left"/></a><br />
-<script type="text/javascript">
-    var clicks = 0;
-    function onClick() {
-        clicks += 1;
-        document.getElementById("clicks").innerHTML = clicks;
-    };
-    </script>
-    <br><button type="button" onClick="onClick()">Click me</button><br />
-    <p>Clicks: <a id="clicks">0</a></p>
-</body>
+    <head>
+        <title>
+            Article One : Sameer
+        </title>
+    </head>
+    <body>
+        <div>
+            <a href="/">HOME</a>
+        </div>
+        <br/>
+        <h3>
+            Article one
+        </h3>
+        <div>
+            Sept 29, 2016
+        </div>
+        <div>
+            <p>
+                Content in here is a part of my first Article.This is done using online stuff.This page is additional to the homepage.
+            </p>
+            <p>
+                Content in here is a part of my first Article.This is done using online stuff.This page is additional to the homepage.
+            </p>
+            <p>
+                Content in here is a part of my first Article.This is done using online stuff.This page is additional to the homepage.
+            </p>
+        </div>
+    </body>
 </html>
