@@ -8,9 +8,9 @@ var element1 = document.getElementById('image1');
 
 var marginLeft = 0;
 function moveRight () {
-    marginLeft = marginLeft + 10;
+    marginLeft = marginLeft + 2;
     element1.style.marginLeft = marrginLeft + 'px';
 }
 element1.onclick = function () {
-    var interval = setInterval(moveRight, 100);
+    var interval = setInterval(moveRight, 50);
 };
