@@ -6,6 +6,11 @@ element.innerHTML = 'Hi! I am Sameer, and this is my first webapp.';
 
 var element1 = document.getElementById('image1');
 
+var marginLeft = 0;
+function moveRight () {
+    marginLeft = marginLeft + 10;
+    element1.style.marginLeft = marrginLeft + 'px';
+}
 element1.onclick = function () {
-    image1.style.marginLeft = '100px';
+    var interval = setInterval(moveRight, 100);
 };
